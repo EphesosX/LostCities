@@ -1,14 +1,14 @@
-﻿Build started 9/17/2016 1:19:02 AM.
-     1>Project "c:\Users\Thomas\documents\visual studio 2013\Projects\LostCities\LostCities\LostCities.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/18/2016 1:15:56 PM.
+     1>Project "C:\Users\Thomas\Documents\Visual Studio 2013\Projects\LostCities\LostCities\LostCities.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp
          Engine.cpp
-     1>c:\users\thomas\documents\visual studio 2013\projects\lostcities\lostcities\engine.h(58): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\thomas\documents\visual studio 2013\projects\lostcities\lostcities\engine.cpp(24): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\thomas\documents\visual studio 2013\Projects\LostCities\Debug\LostCities.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\thomas\documents\visual studio 2013\Projects\LostCities\Debug\LostCities.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\thomas\documents\visual studio 2013\Projects\LostCities\Debug\LostCities.lib" /MACHINE:X86 Debug\Engine.obj
-         LostCities.vcxproj -> c:\users\thomas\documents\visual studio 2013\Projects\LostCities\Debug\LostCities.exe
-     1>Done Building Project "c:\Users\Thomas\documents\visual studio 2013\Projects\LostCities\LostCities\LostCities.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Thomas\Documents\Visual Studio 2013\Projects\LostCities\Debug\LostCities.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Thomas\Documents\Visual Studio 2013\Projects\LostCities\Debug\LostCities.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Thomas\Documents\Visual Studio 2013\Projects\LostCities\Debug\LostCities.lib" /MACHINE:X86 Debug\Engine.obj
+         LostCities.vcxproj -> C:\Users\Thomas\Documents\Visual Studio 2013\Projects\LostCities\Debug\LostCities.exe
+     1>Done Building Project "C:\Users\Thomas\Documents\Visual Studio 2013\Projects\LostCities\LostCities\LostCities.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.89
+Time Elapsed 00:00:01.53
