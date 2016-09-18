@@ -55,6 +55,7 @@ int PlayerBoard::getScore() {
 			}
 		}
 	}
+	return score;
 }
 
 vector<Card*> DiscardBoard::getTopDiscards() {

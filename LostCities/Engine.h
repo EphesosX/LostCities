@@ -52,7 +52,7 @@ protected:
 	array<vector<Card*>, 5> cards;
 
 public:
-	Board();
+	Board() {};
 
 	void addCard(Card* card);
 

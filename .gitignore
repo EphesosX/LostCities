@@ -83,3 +83,5 @@ $RECYCLE.BIN/
 *.sln
 *.suo
 Debug/*
+LostCities.sdf
+Debug/LostCities.pdb
