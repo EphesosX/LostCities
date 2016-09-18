@@ -34,23 +34,8 @@ class Deck {
 	vector<Card*> cards;
 
 public:
-	Deck() {
-		// initialize cards
-		for (int i = 0; i < 5; i++) {
-			// create handshakes
-			for (int j = 0; j < 3; j++) {
-				Card* c = new Card(i, 0);
-				cards.push_back(c);
-			}
-			// create numbers
-			for (int j = 2; j < 11; j++) {
-				Card* c = new Card(i, j);
-				cards.push_back(c);
-			}
-		}
-		// shuffle the deck
-		shuffle();
-	}
+	//does the stuff that implementation has in it.
+	Deck();
 
 	// randomly permute the cards
 	void shuffle() {
