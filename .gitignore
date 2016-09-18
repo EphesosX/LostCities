@@ -79,3 +79,7 @@ $RECYCLE.BIN/
 *.lnk
 
 *.opensdf
+*.sdf
+*.sln
+*.suo
+Debug/*
